@@ -17,7 +17,7 @@ public class ArrayListUtilityProgram {
 		//ar.add("hdsj");
 		System.out.println("Before sorting:"+ar);
 		System.out.println("hhh");
-		System.out.println("mahi");
+		System.out.println("aaa");
 		Collections.sort(ar);
 		
 		System.out.println("After sorting:"+ar);
