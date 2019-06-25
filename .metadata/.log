@@ -1143,3 +1143,102 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:35:30.510
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:35:30.651
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4f239a76[org.springframework.tooling.boot.ls:1.4.0.201902210636(id=620)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:35:30.727
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:35:34.690
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-06-25 17:35:38.763
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:43.608
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fMOuvQWY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:43.668
+!MESSAGE subscribing to classpath changes: sts4.classpath.fMOuvQWY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:43.683
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:43.751
+!MESSAGE subsribers = [sts4.classpath.fMOuvQWY]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:43.767
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:43.892
+!MESSAGE project CollectionPrograms ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:43.907
+!MESSAGE project working-with-git ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:43.923
+!MESSAGE Preparing classpath changed notification CollectionPrograms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:43.923
+!MESSAGE project git-using ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:43.939
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:43.954
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:44.548
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fMOuvQWY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:44.548
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:44.564
+!MESSAGE executing callback sts4.classpath.fMOuvQWY CollectionPrograms false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:44.707
+!MESSAGE executing callback sts4.classpath.fMOuvQWY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:44.722
+!MESSAGE Preparing classpath changed notification git-using
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:44.736
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:44.751
+!MESSAGE executing callback sts4.classpath.fMOuvQWY git-using true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:44.792
+!MESSAGE executing callback sts4.classpath.fMOuvQWY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:44.806
+!MESSAGE Preparing classpath changed notification working-with-git
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:44.821
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:44.943
+!MESSAGE classpath=31 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:44.958
+!MESSAGE executing callback sts4.classpath.fMOuvQWY working-with-git false 31
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-25 17:36:44.990
+!MESSAGE executing callback sts4.classpath.fMOuvQWY SUCCESS [done]
