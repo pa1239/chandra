@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+F:\jobPracticing\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1468585210.index
+\working-with-git\src\main\java
+F:\jobPracticing\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1014021522.index
+\git-using\src\main\java
+F:\jobPracticing\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1768876631.index
+\working-with-git-id\src\main\resources
+F:\jobPracticing\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3993256862.index
+\git-working\src\main\resources
