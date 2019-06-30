@@ -8,7 +8,7 @@ public class ArrayListProgram {
 	public static void arrayListTesting() {
 		
 		ArrayList l=new ArrayList();
-		l.add(20);
+		l.add(10);
 		l.add("chandra");
 		l.add(12.4f);
 		l.add('c');
