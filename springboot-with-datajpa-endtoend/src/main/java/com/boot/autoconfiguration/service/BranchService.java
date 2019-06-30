@@ -16,7 +16,7 @@ public class BranchService {
 	
 	public List<Branch> getBranches(String branchName){
 		
-		System.out.println("service changed");
+		System.out.println("service changed111");
 		return branchRepository.findBranchByBranchName(branchName);
 	}
 }
