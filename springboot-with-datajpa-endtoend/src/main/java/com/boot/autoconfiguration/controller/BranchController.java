@@ -22,7 +22,7 @@ public class BranchController {
 		            List<Branch> branches=service.getBranches(branchName);
 		            
 		            model.addAttribute("branches", branches);
-		            
+		            System.out.println("i am struguling");
 		            return"branch";
 		
 	}
