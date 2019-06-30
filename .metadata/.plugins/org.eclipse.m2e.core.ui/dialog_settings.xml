@@ -25,6 +25,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="F:\jobPracticing"/>
 			<item value="F:\jobPracticing\git-using"/>
 			<item value="F:\jobPracticing\working-with-git"/>
 		</list>
