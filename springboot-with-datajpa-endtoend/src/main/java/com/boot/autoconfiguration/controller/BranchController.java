@@ -23,6 +23,7 @@ public class BranchController {
 		            
 		            model.addAttribute("branches", branches);
 		            System.out.println("i am struguling");
+		            System.out.println("good");
 		            return"branch";
 		
 	}
